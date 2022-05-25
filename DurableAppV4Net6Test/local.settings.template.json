@@ -1,0 +1,29 @@
+{
+  "AzureFunctionsHiddenTagsVisible": 1,
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "AzureAd": {
+    "Instance": "https://login.microsoftonline.com/",
+    "Domain": "TENANT.onmicrosoft.com",
+    "TenantId": "",
+    "ClientId": "",
+    "ClientCertificates": [
+      {
+        "SourceType": "KeyVault",
+        "KeyVaultUrl": "https://{AAAAA}.vault.azure.net/",
+        "KeyVaultCertificateName": "SelfSignedCertificate"
+      }
+    ]
+  },
+  "SharePoint": {
+    "Scopes": "https://[TENANT].sharepoint.com/AllSites.Read",
+    "BaseUrl": "https://[TENANT].sharepoint.com/"
+  },
+  "SharePointTenant": {
+    "Scopes": "https://[TENANT]-admin.sharepoint.com/.default",
+    "BaseUrl": "https://[TENANT]-admin.sharepoint.com/"
+  }
+}

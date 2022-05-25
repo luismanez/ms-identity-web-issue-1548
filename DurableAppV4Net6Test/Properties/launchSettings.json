@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DurableAppV4Net6Test": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AzureFunctionsHiddenTagsVisible": "1"
+      }
+    }
+  }
+}
